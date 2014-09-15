@@ -1,0 +1,79 @@
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+body {
+	font-family: Helvetica;
+	width: 500px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 40px;
+	margin: 10px 0px;
+	text-align: center;
+}
+
+input {
+
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+button {
+	font-size: 18px;
+	border-radius: 5px;
+	border: #0D1E8D;
+	background-color: #0D1E8D;
+}
+
+.center {
+	text-align: center;
+}
+#add-button {
+	color: white;
+}
+#new-todo {
+	width: 250px;
+}
+
+#error {
+	margin: 6px;
+	color: #0D1E8D;
+	display: none;
+	text-align: center;
+}
+
+li {
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin: 10px 0px;
+	padding: 8px;
+	list-style: none;
+}
+
+.done {
+	text-decoration: line-through;
+	color: #999;
+	border: 1px solid #999;
+	height: 20px;
+}
+
+
+
+.item {
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 3px;
+	text-decoration: none;
+	padding: 3px;
+	margin-right: 5px;
+	font-weight: bolder;
+	text-decoration: none;
+}
